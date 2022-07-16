@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+html{
+    font-family:'Outfit';
+    background-color:lightgray;
+   
+}
+#details h2{
+    font-weight: 700;
+    color:gray;
+}
+.attrib{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.attrib a{
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: 900;
+    color: purple;
+   
+    
+}
+@media screen and (min-width:1440px) {
+    #card{
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        height:580px;
+        margin-top: 100px;
+        background-color: whitesmoke ;
+        border-radius: 10px;
+        box-shadow: 10px 1px 10px  grey;
+    }
+    img{
+        margin: 15px 0px 15px 15px;
+        width:320px;
+        height:320px;
+        border-radius: 10px;
+        }
+    #details{
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    #details p {
+        font-size: 15px;
+        font-weight: 400px;
+    
+    }
+    .attrib{
+      font-size: 11.5px;
+    }
+}
+@media screen and (min-width:375px) {
+    #card{
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        height:580px;
+        margin-top: 100px;
+        background-color: whitesmoke ;
+        box-shadow: 10px 1px 10px  grey;
+
+        border-radius: 10px;
+    }
+    img{
+        margin: 15px 0px 15px 15px;
+        width:320px;
+        height:320px;
+        border-radius: 10px;
+        }
+    #details{
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+
+    #details p {
+        font-size: 15px;
+        font-weight: 700;
+        color: grey;
+    
+    }
+    .attrib{
+        margin-top: 50px;
+        font-size: 11.5px;
+        font-weight: 600;
+      }
+}
+
