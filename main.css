@@ -2,16 +2,35 @@
 html{
     font-family:'Outfit';
     background-color:lightgray;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
    
 }
 #details h2{
-    font-weight: 700;
-    color:gray;
+    color:white;
+    
+}
+.circle{
+    position:relative;
+    width:500px;
+    height:500px;
+    background:rgba(48, 48, 48, 0.2);
+    border-radius: 50%;
+    text-align: center;
+    float: right;
+    z-index: 5;
+    margin-top: -150px;
+    margin-right: -100px;
+   
+   
 }
 .attrib{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: white;
 }
 .attrib a{
     text-decoration: none;
@@ -28,9 +47,8 @@ html{
         width: 350px;
         height:580px;
         margin-top: 100px;
-        background-color: whitesmoke ;
+        background:none ;
         border-radius: 10px;
-        box-shadow: 10px 1px 10px  grey;
     }
     img{
         margin: 15px 0px 15px 15px;
@@ -59,9 +77,8 @@ html{
         width: 350px;
         height:580px;
         margin-top: 100px;
-        background-color: whitesmoke ;
-        box-shadow: 10px 1px 10px  grey;
-
+        background-color:rgb(14, 85, 117) ;
+        overflow: hidden;
         border-radius: 10px;
     }
     img{
@@ -74,12 +91,13 @@ html{
         margin-left: 15px;
         margin-right: 15px;
         text-align: center;
+       
     }
 
     #details p {
         font-size: 15px;
         font-weight: 700;
-        color: grey;
+        color:white;
     
     }
     .attrib{
